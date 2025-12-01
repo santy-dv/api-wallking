@@ -31,23 +31,26 @@ Cada ruta contiene su atributo ID generado automáticamente al crear un nuevo ob
 
 Usuarios (user):
 
+``` bash
 nombre: String
 email: String
 clave: String
 tel: String
-
+```
 
 Painters (pintor):
 
+``` bash
 nombre: String
 telefono: String
 rating: Número
 email: String
 Método de filtrado: rating y nombre
-
+```
 
 Walls (pared):
 
+``` bash
 nombre: String
 descripcion: String
 color: String
@@ -56,4 +59,4 @@ imagen: String
 painter: ID del pintor (tiene que existir en primer lugar)
 createdAt: Fecha
 Método de filtrado: color, estilo y autor
-
+```
