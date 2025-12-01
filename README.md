@@ -28,26 +28,32 @@ Comisión: DWT4AP
 # Datos de cada ruta:
 Cada ruta contiene su atributo ID generado automáticamente al crear un nuevo objeto. Cada ruta tiene su función de filtrado por ID.
 
+
 Usuarios (user):
->nombre: String
->email: String
->clave: String
->tel: String
+
+nombre: String
+email: String
+clave: String
+tel: String
+
 
 Painters (pintor):
->nombre: String
->telefono: String
->rating: Número
->email: String
+
+nombre: String
+telefono: String
+rating: Número
+email: String
 Método de filtrado: rating y nombre
 
+
 Walls (pared):
->nombre: String
->descripcion: String
->color: String
->estilo: String
->imagen: String
->painter: ID del pintor (tiene que existir en primer lugar)
->createdAt: Fecha
+
+nombre: String
+descripcion: String
+color: String
+estilo: String
+imagen: String
+painter: ID del pintor (tiene que existir en primer lugar)
+createdAt: Fecha
 Método de filtrado: color, estilo y autor
 
