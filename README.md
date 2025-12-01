@@ -58,5 +58,5 @@ estilo: String
 imagen: String
 painter: ID del pintor (tiene que existir en primer lugar)
 createdAt: Fecha
-Método de filtrado: color, estilo y autor
+Método de filtrado: nombre, color, estilo y autor
 ```
