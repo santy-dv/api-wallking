@@ -1,0 +1,51 @@
+# api-wallking
+ API de solidos cuerpos construidos de forma vertical, muros.
+
+``` bash
+    npm init
+```
+
+Dependencias a instalar:
+``` bash
+    npm install express dotenv mongoose
+```
+|--models/
+|--controllers/
+|--routes/
+|-- index.js
+|-- package.json
+|-- .env
+|-- .gitignore
+
+# Datos del proyecto
+
+Nombre y apellido: Santiago Montero
+Nombre de la materia: Aplicaciones Híbridas
+Nombre del docente: Jonathan Cruz
+Comisión: DWT4AP
+
+
+# Datos de cada ruta:
+
+Usuarios (user):
+>nombre: String
+>email: String
+>clave: String
+>tel: String
+
+Painters (pintor):
+>nombre: String
+>telefono: String
+>rating: Número
+>email: String
+Método de filtrado: rating y nombre
+
+Walls (pared):
+>nombre: String
+>descripcion: String
+>color: String
+>estilo: String
+>imagen: String
+>painter: ID del pintor (tiene que existir en primer lugar)
+>createdAt: Fecha
+Método de filtrado: color, estilo y autor
