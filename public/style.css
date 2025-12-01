@@ -1,0 +1,62 @@
+@font-face {
+    font-family: "IMPACT";
+    src: url(impact.ttf);
+}
+
+@font-face {
+    font-family: "Comic Sans";
+    src: url(comicSans.ttf);
+}
+
+
+body {
+    margin: 0;
+    background-image: url(paredfondo.png);
+    background-attachment: fixed;
+    animation: 30s linear infinite;
+    animation-name: moveWall;
+}
+
+@keyframes moveWall {
+    0% {
+        background-position-x: 0px;
+    }
+    100% {
+        background-position-x: 1280px;
+    }
+}
+
+
+h1 {
+    font-family: "IMPACT", sans-serif;
+    letter-spacing: 3px;
+    font-weight: normal;
+}
+
+.main {
+    margin-top: 2rem;
+    width: 80%;
+    height: 60%;
+    background: #2A7B9B;
+    background: linear-gradient(125deg, rgb(119, 42, 155) 0%, rgb(199, 87, 115) 50%, rgba(237, 221, 83, 1) 100%);
+    color: white;
+    box-shadow: 10px 10px black;
+    padding: 2rem;
+    border-radius: 20px;
+    justify-self: center;
+}
+
+img {
+    width: 300px;
+}
+
+p {
+    font-family: "Comic Sans", sans-serif;
+}
+
+#footer {
+    margin-top: 3rem;
+    background-color: rgb(68, 23, 42);
+    color: white;
+    padding: 1rem;
+}
